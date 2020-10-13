@@ -1,13 +1,11 @@
 fileFormatVersion: 2
 guid: 0bba1ac25aaf1074daf6247acad7f893
-timeCreated: 1463605337
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: WYVERN_
-    100004: WYVERN_ Footsteps
+    100000: root
+    100002: //RootNode
+    100004: WYVERN_
     100006: WYVERN_ Head
     100008: WYVERN_ L Calf
     100010: WYVERN_ L Clavicle
@@ -80,9 +78,9 @@ ModelImporter:
     100144: WYVERN_ Tail7
     100146: WYVERN_ Tail8
     100148: WYVERN_ Tail9
-    400000: //RootNode
-    400002: WYVERN_
-    400004: WYVERN_ Footsteps
+    400000: root
+    400002: //RootNode
+    400004: WYVERN_
     400006: WYVERN_ Head
     400008: WYVERN_ L Calf
     400010: WYVERN_ L Clavicle
@@ -155,13 +153,14 @@ ModelImporter:
     400144: WYVERN_ Tail7
     400146: WYVERN_ Tail8
     400148: WYVERN_ Tail9
-    7400000: takeOff
+    7400000: TakeOff
     9500000: //RootNode
-    11100000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -174,15 +173,18 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 2
+    animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: takeOff
+      name: TakeOff
       takeName: Take 001
       firstFrame: 0
       lastFrame: 50
@@ -205,250 +207,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: WYVERN_
-        weight: 1
-      - path: WYVERN_/WYVERN_ Footsteps
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf/WYVERN_
-          L HorseLink
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf/WYVERN_
-          L HorseLink/WYVERN_ L Foot
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf/WYVERN_
-          L HorseLink/WYVERN_ L Foot/WYVERN_ L Toe0
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf/WYVERN_
-          L HorseLink/WYVERN_ L Foot/WYVERN_ L Toe0/WYVERN_ L Toe01
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf/WYVERN_
-          L HorseLink/WYVERN_ L Foot/WYVERN_ L Toe1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ L Thigh/WYVERN_ L Calf/WYVERN_
-          L HorseLink/WYVERN_ L Foot/WYVERN_ L Toe1/WYVERN_ L Toe11
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf/WYVERN_
-          R HorseLink
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf/WYVERN_
-          R HorseLink/WYVERN_ R Foot
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf/WYVERN_
-          R HorseLink/WYVERN_ R Foot/WYVERN_ R Toe0
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf/WYVERN_
-          R HorseLink/WYVERN_ R Foot/WYVERN_ R Toe0/WYVERN_ R Toe01
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf/WYVERN_
-          R HorseLink/WYVERN_ R Foot/WYVERN_ R Toe1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ R Thigh/WYVERN_ R Calf/WYVERN_
-          R HorseLink/WYVERN_ R Foot/WYVERN_ R Toe1/WYVERN_ R Toe11
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger0
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger0/WYVERN_ L Finger01
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger0/WYVERN_ L Finger01/WYVERN_ L Finger02
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger1/WYVERN_ L Finger11
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger1/WYVERN_ L Finger11/WYVERN_ L Finger12
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger2
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger2/WYVERN_ L Finger21
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger2/WYVERN_ L Finger21/WYVERN_ L Finger22
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger3
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger3/WYVERN_ L Finger31
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ L Clavicle/WYVERN_ L UpperArm/WYVERN_ L Forearm/WYVERN_ L Hand/WYVERN_
-          L Finger3/WYVERN_ L Finger31/WYVERN_ L Finger32
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1/WYVERN_ Neck2
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1/WYVERN_ Neck2/WYVERN_ Neck3
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1/WYVERN_ Neck2/WYVERN_ Neck3/WYVERN_ Neck4
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1/WYVERN_ Neck2/WYVERN_ Neck3/WYVERN_ Neck4/WYVERN_ Neck5
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1/WYVERN_ Neck2/WYVERN_ Neck3/WYVERN_ Neck4/WYVERN_ Neck5/WYVERN_
-          Head
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ Neck1/WYVERN_ Neck2/WYVERN_ Neck3/WYVERN_ Neck4/WYVERN_ Neck5/WYVERN_
-          Head/WYVERN_ Ponytail1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger0
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger0/WYVERN_ R Finger01
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger0/WYVERN_ R Finger01/WYVERN_ R Finger02
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger1/WYVERN_ R Finger11
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger1/WYVERN_ R Finger11/WYVERN_ R Finger12
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger2
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger2/WYVERN_ R Finger21
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger2/WYVERN_ R Finger21/WYVERN_ R Finger22
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger3
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger3/WYVERN_ R Finger31
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Spine1/WYVERN_ Spine2/WYVERN_
-          Neck/WYVERN_ R Clavicle/WYVERN_ R UpperArm/WYVERN_ R Forearm/WYVERN_ R Hand/WYVERN_
-          R Finger3/WYVERN_ R Finger31/WYVERN_ R Finger32
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5/WYVERN_ Tail6
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5/WYVERN_ Tail6/WYVERN_ Tail7
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5/WYVERN_ Tail6/WYVERN_ Tail7/WYVERN_
-          Tail8
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5/WYVERN_ Tail6/WYVERN_ Tail7/WYVERN_
-          Tail8/WYVERN_ Tail9
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5/WYVERN_ Tail6/WYVERN_ Tail7/WYVERN_
-          Tail8/WYVERN_ Tail9/WYVERN_ Tail10
-        weight: 1
-      - path: WYVERN_/WYVERN_ Pelvis/WYVERN_ Spine/WYVERN_ Tail/WYVERN_ Tail1/WYVERN_
-          Tail2/WYVERN_ Tail3/WYVERN_ Tail4/WYVERN_ Tail5/WYVERN_ Tail6/WYVERN_ Tail7/WYVERN_
-          Tail8/WYVERN_ Tail9/WYVERN_ Tail10/WYVERN_ Tail11
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     isReadable: 1
@@ -457,22 +217,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
     importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 1
   humanDescription:
@@ -486,12 +258,11 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: WYVERN_
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    rootMotionBoneName: root
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f51633bbd1227dc4bbe886b073535aa4,
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d5c39bee3007be043b818b51344b7d66,
     type: 3}
   animationType: 2
   humanoidOversampling: 1

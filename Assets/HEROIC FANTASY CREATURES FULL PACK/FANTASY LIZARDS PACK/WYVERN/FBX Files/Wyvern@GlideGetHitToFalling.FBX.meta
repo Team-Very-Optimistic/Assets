@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f12b307c6557f6547bb85e73af1051ff
+guid: 1bd705a487599294f89e9e8860248485
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -153,7 +153,7 @@ ModelImporter:
     400144: WYVERN_ Tail7
     400146: WYVERN_ Tail8
     400148: WYVERN_ Tail9
-    7400000: Turn90Left
+    7400000: GlideGetHitToFalling
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -184,7 +184,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Turn90Left
+      name: GlideGetHitToFalling
       takeName: Take 001
       firstFrame: 0
       lastFrame: 40
